@@ -1,0 +1,13 @@
+{% extends "checker/header.html" %}
+
+{% block content %}
+<main role="main" class="inner cover">
+	<h5 class="cover-heading">Enter Reddit Username</h5>
+	<form action="/get_result/" method="post">
+		{% csrf_token %}
+		{{ form }}
+		<input type="submit" value="Submit">
+	</form>
+</main>
+
+{% endblock %}
