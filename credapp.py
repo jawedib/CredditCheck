@@ -22,15 +22,35 @@ def creditCheck(name):
     
     
         if (len(scores)>45): #len() is O(1), so why not. Adds credibility(ayy!) to the tool itself
-           final = str(round(mean(scores)*1000))
-           #print("Your score : " + final) # multiplying score by 1000 to have a whole number
+           finalscore = round(mean(scores)*10)
+           # multiplying score by 10 to have a whole number
     
         else:
-            final="Account does not have enough comments/information"
+            return {'finalscore': "Account does not have enough comments/information", 'name': name, 'grade': "N/A"}
     
-        dict = {'final': final, 'name': name}
+        grade = getGrade(int(finalscore))
+        dict = {'finalscore': finalscore, 'name': name, 'grade': grade}
     	
     except:
-        return {'final': "No account/comments found", 'name': name}
+        return {'finalscore': "No account/comments found", 'name': name, 'grade': "N/A"}
     
     return (dict)
+
+def getGrade(score):
+    try:
+        if (score>=4 and score<8):
+            return "C"
+        elif (score>=0 and score<4):
+            return "D"
+        elif (score>=8 and score<12):
+            return "B"
+        elif (score>=12 and score<16):
+            return "A"
+        elif (score>=16):
+            return "A+"
+        elif (score>=-4 and score<0):
+            return "F"
+        elif (score<-4):
+            return "Delete Account."
+    except:
+        return "No grade available."
