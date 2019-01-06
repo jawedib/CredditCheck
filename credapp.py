@@ -6,7 +6,7 @@ from credentials import reddit
 
 def creditCheck(name):
     redditor = reddit.redditor(name)
-    comments = redditor.comments.new(limit=60)
+    comments = redditor.comments.new(limit=50)
     scores = []
 
     try:
@@ -21,7 +21,7 @@ def creditCheck(name):
                    scores.append(myscore/parentscore)
     
     
-        if (len(scores)>45): #len() is O(1), so why not. Adds credibility(ayy!) to the tool itself
+        if (len(scores)>35): #len() is O(1), so why not. Adds credibility(ayy!) to the tool itself
            finalscore = round(mean(scores)*10)
            # multiplying score by 10 to have a whole number
     
