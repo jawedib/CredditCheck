@@ -9,12 +9,12 @@ This tool can also used by marketers who often buy out Reddit accounts to promot
 
 •	Neil Tyson(Reddit username: neiltyson) : A+
 
-•	Bill Nye(Reddit username: sundialbill): B
+•	Bill Nye(Reddit username: sundialbill) : B
 
 If I had to guess beforehand, I would guess the opposite scores as Bill Nye has been overall better liked celebrity at Reddit. It was just lately his account has been subject to negative responses by Reddit users due to several reasons explained here by other users(may contain foul language):
 https://www.reddit.com/r/OutOfTheLoop/comments/7bqfhm/why_is_bill_nyes_ama_so_heavily_downvoted/
 
-As a marketer, I could skip all of this research by simply using CredditChecker!
+As a marketer, I could skip all of this research by simply using CredditCheck!
 
 
 
