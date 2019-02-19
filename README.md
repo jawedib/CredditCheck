@@ -7,7 +7,7 @@ Purpose of the bot is to gauge the credibility of a user without having to go th
 
 Obviously, it's Reddit, it’s user-voted and more about overall agreeability and not actual credibility but CredditCheck is a much cooler name. 
 
-This tool can also used by marketers who often buy out Reddit accounts to promote their products. Of course, I do not condone the act of buying out accounts for promotional purposes but it still happens. Some buyers are most likely using this kind of a tool already. On the positive side, it can be used by marketers outside of the grey area too. For example, a brand looking to hire a celebrity for endorsement, may use this tool and decide to approach Neil Degrasse Tyson instead of Bill Nye to promote their product on Reddit. The grades of both of these science-celebs as of 14 Jan 2019 are:
+This tool can also used by marketers who buy Reddit accounts to promote their products as a message holds more weight coming from a trusted account. Another example of usage that doesn't involve buying accounts would be: a brand looking to hire a celebrity for endorsement, may use this tool and decide to approach Neil Degrasse Tyson instead of Bill Nye to promote their product on Reddit. The grades of both of these science-celebs as of 14 Jan 2019 are:
 
 •	Neil Tyson(Reddit username: neiltyson) : A+
 
@@ -20,6 +20,4 @@ As a marketer, I could skip all of this research by simply using CredditCheck!
 
 
 
-Sidenote: I was looking to move from PRAW API to PushShift for quicker, more consistent results but apparently they might not be around for much longer so we'll stay with PRAW for now.
-
-Source: https://www.reddit.com/r/pushshift/comments/ad1kz9/thanks_to_all_who_donated_the_minimum_needed_has/
+Sidenote: I was looking to move from PRAW API to PushShift for quicker, more consistent results but apparently they might not be around for much longer so we'll stay with PRAW for now. Source: https://www.reddit.com/r/pushshift/comments/ad1kz9/thanks_to_all_who_donated_the_minimum_needed_has/
