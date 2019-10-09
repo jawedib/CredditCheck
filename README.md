@@ -2,7 +2,7 @@
 
 Currently live at: https://credditcheck.herokuapp.com/
 
-Reddit user credibility checker. Web app version of the Reddit bot. Personal project to get familiar with Django, Bootstrap and Jinja. 
+Reddit user credibility checker. Web app version of my Reddit bot. Personal project to get familiar with Django, Bootstrap and Jinja. 
 Purpose of the bot is to gauge the credibility of a user without having to go through their comment history. Your questions on subreddits such as r/LearnProgramming or r/HomeworkHelp might not necessarily gain any traction or votes. At best you might have 3 to 4 comments with one vote each and each reply's solution might be heading in a different direction. CredditCheck can help here to see which user has historically provided popular answers and help you reach the best solution. Higher karma points on an account does not necessarily garner high grades on CredditCheck; users who merely respond in small subreddits may receive excellent grades on the app.
 
 Obviously, it's Reddit, it’s user-voted and more about overall agreeability and not actual credibility but CredditCheck is a much cooler name. 
